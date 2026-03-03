@@ -1,9 +1,10 @@
-🔐 Key-Pair Authentication (Secure Login to EC2)
+# Key-Pair Authentication (Secure Login to EC2)
 
 Instead of using passwords, AWS EC2 uses SSH key-pair authentication to securely connect to a Linux server.
 This method is safer because the private key stays only on the user's computer and cannot be guessed like a password.
 
 🧩 Steps Performed
+
 1. Create Key Pair
 
 While launching EC2 instance → Create new key pair
@@ -12,12 +13,13 @@ Downloaded .pem file
 
 Stored securely on local machine
 
-2. Set Permission (Linux / Git Bash / MobaXterm)
+2.Set Permission (Linux / Git Bash / MobaXterm) 
 chmod 400 mykey.pem
 
 This prevents other users from accessing the private key.
 
 3. Connect to Instance via SSH
+
 ssh -i mykey.pem ubuntu@<public-ip>
 
 Example:
