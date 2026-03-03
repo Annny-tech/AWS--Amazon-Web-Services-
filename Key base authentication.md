@@ -7,25 +7,26 @@ This method is safer because the private key stays only on the user's computer a
 
 ## Step 1.Create Key Pair
 
-While launching EC2 instance → Create new key pair
+1.While launching EC2 instance → Create new key pair
 
-Downloaded .pem file
+2.Downloaded .pem file
 
-Stored securely on local machine
+3.Stored securely on local machine
 
 ## Step 2.Set Permission (Linux / Git Bash / MobaXterm) 
-chmod 400 mykey.pem
+1.chmod 400 mykey.pem
 
-This prevents other users from accessing the private key.
+2.This prevents other users from accessing the private key.
 
 ## Step 3. Connect to Instance via SSH
 
-ssh -i mykey.pem ubuntu@<public-ip>
+1.ssh -i mykey.pem ubuntu@<public-ip>
 
 Example:
 
 ssh -i awskey.pem ubuntu@3.110.xxx.xxx
-🔒 How It Works (Concept)
+
+## 🔒 How It Works (Concept)
 
 AWS stores the public key inside the EC2 server
 
