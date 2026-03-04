@@ -22,3 +22,14 @@
   - Allow HTTP (80) from Anywhere (0.0.0.0/0)
 
 - Launch Instance
+
+## Step 2 - Connect to Ec2 server via terminal
+From your local terminal:
+```bash
+ssh -i your-key.pem ubuntu@your-public-ip
+```
+
+Example:
+```bash
+ssh -i aws-key.pem ubuntu@13.233.xxx.xxx
+```
