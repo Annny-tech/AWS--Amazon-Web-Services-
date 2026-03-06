@@ -23,6 +23,9 @@
 
 - Launch Instance
 
+Implementation Example:
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/186ea812cce0b767779b698736a39621ad4711fe/Images/Screenshot%202026-03-06%20234245.png)
+
 ## Step 2 - Connect to Ec2 server via terminal
 From your local terminal:
 ```bash
