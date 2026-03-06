@@ -58,6 +58,6 @@ This is called asymmetric cryptography authentication.
 
 - Used in DevOps automation
 
-📌 Result
+## 📌 Result
 
 Successfully connected to the EC2 Linux instance securely using SSH key-pair authentication and performed remote server administration.
