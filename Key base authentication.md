@@ -14,7 +14,7 @@ This method is safer because the private key stays only on the user's computer a
 3.Stored securely on local machine
 
 ### Implementation Example:
-![image alt](
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/82aeb9936ce4d0bc7ebee4ec8edfb4a85fddb62e/Images/Screenshot%202026-03-06%20224051.png)
 
 ## Step 2.Set Permission (Linux / Git Bash / MobaXterm) 
 1.chmod 400 mykey.pem
