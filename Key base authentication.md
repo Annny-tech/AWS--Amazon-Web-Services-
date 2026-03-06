@@ -30,7 +30,7 @@ Example:
 ssh -i awskey.pem ubuntu@3.110.xxx.xxx
 
 ### Implementation Example:
-![image alt](
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/26cfdfc2f0c5500a181c94975e8aecb1cab5093e/Images/Screenshot%202026-03-06%20231930.png)
 
 ## 🔒 How It Works (Concept)
 
