@@ -40,7 +40,7 @@ apt update && apt install nginx -y
 This command will update the ubuntu server and inorder to update the amazon linux (ec2) server we have to use yum command , after that we have installed the nginx package in the ubuntu server.
 
 Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/ea18dc9d225018f109b96d3bbe35071ce11f298d/Images/Screenshot%202026-03-06%20235250.png)
 
 ## Step 4 - Start and Enable NGINX
 
