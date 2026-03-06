@@ -32,4 +32,3 @@ Example:
 ```bash
 ssh -i aws-key.pem ubuntu@13.233.xxx.xxx
 ```
-![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/0dea3da2ee3a49912d1b83ca0598f5f0a352cbd9/Screenshot%202026-03-05%20152610.png)
