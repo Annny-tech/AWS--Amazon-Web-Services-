@@ -34,23 +34,23 @@ User keeps the private key
 
 During login:
 
-Server verifies the key
+- Server verifies the key
 
-If matched → access granted
+- If matched → access granted
 
-No password required
+- No password required
 
 This is called asymmetric cryptography authentication.
 
 ✅ Advantages
 
-More secure than passwords
+- More secure than passwords
 
-Prevents brute-force attacks
+- Prevents brute-force attacks
 
-Required for cloud production servers
+- Required for cloud production servers
 
-Used in DevOps automation
+- Used in DevOps automation
 
 📌 Result
 
