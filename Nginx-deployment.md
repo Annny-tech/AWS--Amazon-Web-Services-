@@ -23,7 +23,7 @@
 
 - Launch Instance
 
-Implementation Example:
+### Implementation Example:
 ![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/186ea812cce0b767779b698736a39621ad4711fe/Images/Screenshot%202026-03-06%20234245.png)
 
 ## Step 2 - Connect to Ec2 server via terminal
@@ -42,7 +42,7 @@ apt update && apt install nginx -y
 ```
 This command will update the ubuntu server and inorder to update the amazon linux (ec2) server we have to use yum command , after that we have installed the nginx package in the ubuntu server.
 
-Implementation Example:
+### Implementation Example:
 ![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/ea18dc9d225018f109b96d3bbe35071ce11f298d/Images/Screenshot%202026-03-06%20235250.png)
 
 ## Step 4 - Start and Enable NGINX
@@ -80,5 +80,12 @@ http://13.234.xx.xx
 
 Your website should now load.
 
-Implementation Example:
-![image alt]()
+### Implementation Example:
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/a0b5ffa234b43ae59c80e6707ea80fcaf2be2ef1/Images/Screenshot%202026-03-07%20000233.png)
+
+## Conclusion
+
+This project demonstrates how to deploy a static website using NGINX on a Linux server. The process includes installing and configuring NGINX, cloning the repository, placing the website files in the server directory, and making the application accessible through a public IP address.
+
+Through this deployment, we learn the basic workflow of hosting static web applications, managing server configurations, and understanding how web servers deliver content to users. This setup provides a simple, efficient, and scalable way to host websites and is widely used in modern web infrastructure.
+
