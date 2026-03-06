@@ -29,6 +29,9 @@ Example:
 
 ssh -i awskey.pem ubuntu@3.110.xxx.xxx
 
+### Implementation Example:
+![image alt](
+
 ## 🔒 How It Works (Concept)
 
 AWS stores the public key inside the EC2 server
