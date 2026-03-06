@@ -13,6 +13,9 @@ This method is safer because the private key stays only on the user's computer a
 
 3.Stored securely on local machine
 
+### Implementation Example:
+![image alt](
+
 ## Step 2.Set Permission (Linux / Git Bash / MobaXterm) 
 1.chmod 400 mykey.pem
 
