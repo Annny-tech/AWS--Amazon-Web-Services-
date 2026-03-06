@@ -1,4 +1,13 @@
 # 🚀 AWS EC2 + NGINX Setup (Step-by-Step Guide)
+
+## Project Description
+
+This project demonstrates how to deploy a static website using NGINX on a Linux server. NGINX is a high-performance web server that is commonly used to serve static content such as HTML, CSS, JavaScript, and images.
+
+In this project, a static website stored in a GitHub repository is deployed on a server by installing and configuring NGINX. The repository files are copied to the default NGINX web directory, allowing the website to be accessed through the server's public IP address.
+
+The goal of this project is to understand the basic process of web server deployment, file hosting, and how NGINX delivers website content to users efficiently.
+
 ## STEP 1️⃣ – Launch EC2 Instance
 
 - Go to AWS Console
