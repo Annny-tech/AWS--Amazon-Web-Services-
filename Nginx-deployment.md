@@ -79,14 +79,14 @@ Default NGINX website folder:
 
 ## Step 6 _🔟 Open Website in Browser
 
-- Go to:
-
+Go to:
+```
 http://your-server-public-ip
-
+```
 Example:
-
+```
 http://13.234.xx.xx
-
+```
 Your website should now load.
 
 ### Implementation Example:
