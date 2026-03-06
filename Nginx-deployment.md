@@ -32,3 +32,50 @@ Example:
 ```bash
 ssh -i aws-key.pem ubuntu@13.233.xxx.xxx
 ```
+
+## Step 3 - Now update the system and install the nginx package
+```bash
+apt update && apt install nginx -y
+```
+This command will update the ubuntu server and inorder to update the amazon linux (ec2) server we have to use yum command , after that we have installed the nginx package in the ubuntu server.
+
+Implementation Example:
+![image alt]()
+
+## Step 4 - Start and Enable NGINX
+
+Start the service:
+``` bash
+sudo systemctl start nginx
+```
+
+Enable auto start on boot:
+``` bash 
+sudo systemctl enable nginx
+```
+
+Check status:
+```bash
+sudo systemctl status nginx
+```
+## Step 5 - Move Website Files to NGINX Directory
+
+Default NGINX website folder:
+```bash
+/var/www/html
+```
+
+## Step 6 _🔟 Open Website in Browser
+
+- Go to:
+
+http://your-server-public-ip
+
+Example:
+
+http://13.234.xx.xx
+
+Your website should now load.
+
+Implementation Example:
+![image alt]()
