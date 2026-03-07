@@ -15,10 +15,6 @@ In this demonstration, an EFS file system is created, configured with the requir
 
 - Shared storage mounted using NFS
 
-## Result / Output
-
-The EFS file system was successfully mounted on multiple EC2 instances. Files created on one instance were accessible from the other instance, confirming that shared storage is working correctly.
-
 ## Implementation Steps
 
 ### 1. Create a VPC
