@@ -69,6 +69,9 @@ sudo apt update
 ```
 sudo apt install nfs-common -y
 ```
+### Implementation Example:
+![image alt]()
+
 ### 7. Create a Mount Directory
 ```
 sudo mkdir /efs
@@ -77,6 +80,10 @@ sudo mkdir /efs
 ```
 sudo mount -t nfs4 -o nfsvers=4.1 fs-xxxxxx:/ /efs
 ```
+
+### Implementation Example:
+![image alt]()
+
 (Replace fs-xxxxxx with your EFS File System ID.)
 
 ### 9. Test Shared Storage
@@ -86,11 +93,14 @@ sudo mount -t nfs4 -o nfsvers=4.1 fs-xxxxxx:/ /efs
 cd /efs
 ```
 ```
-sudo touch testfile.txt
+sudo touch testfile
 ```
 - Now check the same directory on the second instance:
 ```
 cd /efs
 ```
+
+### Implementation Example:
+![image alt]()
 
 You will see the same file, confirming that EFS is successfully shared between instances.
