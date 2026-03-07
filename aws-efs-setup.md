@@ -38,7 +38,7 @@ In this demonstration, an EFS file system is created, configured with the requir
 - Assign a security group .
 
 ### Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/4616e941b0ac297f7f71e87eca7059e45d5e37d3/Images/efs-servers.png)
 
 ### 4. Create an EFS File System
 
