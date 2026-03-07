@@ -25,7 +25,7 @@ In this demonstration, an EFS file system is created, configured with the requir
 - Set the source as the EC2 instances security group.
   
 ### Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/5827ff2b779e8fc6c1386c5d57ca257eb6a65382/Images/sg_efs.png)
 
 ### 3. Launch EC2 Instances using same security group>
 
