@@ -69,8 +69,6 @@ sudo apt update
 ```
 sudo apt install nfs-common -y
 ```
-### Implementation Example:
-![image alt]()
 
 ### 7. Create a Mount Directory
 ```
@@ -82,7 +80,7 @@ sudo mount -t nfs4 -o nfsvers=4.1 fs-xxxxxx:/ /efs
 ```
 
 ### Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/f4ab0103d71a45dcbacb2d3c643b678eb898f676/Images/mkdir%20and%20mount.png)
 
 (Replace fs-xxxxxx with your EFS File System ID.)
 
