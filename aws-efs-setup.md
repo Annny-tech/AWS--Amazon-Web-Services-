@@ -102,3 +102,11 @@ cd /efs
 ![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/653865a009d14b102bfbc5fe65fba3391e947f5f/Images/textfile%20edit%20efs.png)
 
 You will see the same file, confirming that EFS is successfully shared between instances.
+
+### Conclusion:
+
+This project demonstrates the setup and implementation of Amazon Elastic File System (EFS) in an AWS environment. The goal is to create a shared network file system that can be mounted on multiple EC2 instances within the same VPC.
+
+In this setup, an EFS file system is created and configured with the required mount targets and security settings. Ubuntu EC2 instances are then connected to the file system using NFS and a mount directory is created to access the shared storage.
+
+The demonstration verifies that files created on one server can be accessed from another server, proving that EFS provides scalable, centralized, and shared storage for multiple instances in the cloud. This type of architecture is commonly used in distributed applications, web servers, and environments where multiple systems need simultaneous access to the same data
