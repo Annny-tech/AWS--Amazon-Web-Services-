@@ -3,6 +3,22 @@ This project demonstrates the implementation of Amazon Elastic File System (EFS)
 
 In this demonstration, an EFS file system is created, configured with the required networking and security settings, and mounted on Ubuntu EC2 instances. The setup verifies that files created on one server are accessible from another, showing how EFS provides scalable and centralized storage for cloud-based applications.
 
+## Architecture Overview:
+
+- VPC
+
+- 2 Subnets
+
+- 2 EC2 Instances
+
+- Amazon EFS
+
+- Shared storage mounted using NFS
+
+## Result / Output
+
+The EFS file system was successfully mounted on multiple EC2 instances. Files created on one instance were accessible from the other instance, confirming that shared storage is working correctly.
+
 ## Implementation Steps
 
 ### 1. Create a VPC
