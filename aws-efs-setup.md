@@ -13,7 +13,8 @@ In this demonstration, an EFS file system is created, configured with the requir
 
 - Create two subnets in different Availability Zones.
   
-### Implementation 
+### Implementation Example:
+![image alt]()
   
 ### 2. Create a Security Group for EFS
 
@@ -22,6 +23,9 @@ In this demonstration, an EFS file system is created, configured with the requir
 - Allow NFS (port 2049) inbound.
 
 - Set the source as the EC2 instances security group.
+  
+### Implementation Example:
+![image alt]()
 
 ### 3. Launch EC2 Instances using same security group>
 
@@ -33,6 +37,9 @@ In this demonstration, an EFS file system is created, configured with the requir
 
 - Assign a security group .
 
+### Implementation Example:
+![image alt]()
+
 ### 4. Create an EFS File System
 
 - Go to AWS EFS → Create File System.
@@ -42,6 +49,9 @@ In this demonstration, an EFS file system is created, configured with the requir
 - Create mount targets in both subnets.
 
 - Attach the EFS security group.
+
+### Implementation Example:
+![image alt]()
 
 ### 5. Connect to EC2 Instances
 
