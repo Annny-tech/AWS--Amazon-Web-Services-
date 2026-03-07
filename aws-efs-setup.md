@@ -14,7 +14,7 @@ In this demonstration, an EFS file system is created, configured with the requir
 - Create two subnets in different Availability Zones.
   
 ### Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/4700c79eb42cc69d4451ddb55d2ef24b45cf6ca6/Images/vpc_efs.png)
   
 ### 2. Create a Security Group for EFS
 
