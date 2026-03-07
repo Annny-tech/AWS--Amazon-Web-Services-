@@ -99,6 +99,6 @@ cd /efs
 ```
 
 ### Implementation Example:
-![image alt]()
+![image alt](https://github.com/Annny-tech/AWS--Amazon-Web-Services-/blob/653865a009d14b102bfbc5fe65fba3391e947f5f/Images/textfile%20edit%20efs.png)
 
 You will see the same file, confirming that EFS is successfully shared between instances.
